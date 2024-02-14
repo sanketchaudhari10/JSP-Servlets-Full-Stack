@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/smsreactapp/static/css/main.e192337e.css",
+    "main.js": "/smsreactapp/static/js/main.57ffe17a.js",
+    "static/js/787.8d81b4fa.chunk.js": "/smsreactapp/static/js/787.8d81b4fa.chunk.js",
+    "index.html": "/smsreactapp/index.html",
+    "main.e192337e.css.map": "/smsreactapp/static/css/main.e192337e.css.map",
+    "main.57ffe17a.js.map": "/smsreactapp/static/js/main.57ffe17a.js.map",
+    "787.8d81b4fa.chunk.js.map": "/smsreactapp/static/js/787.8d81b4fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e192337e.css",
+    "static/js/main.57ffe17a.js"
+  ]
+}

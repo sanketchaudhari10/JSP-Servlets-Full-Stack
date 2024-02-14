@@ -1,0 +1,6 @@
+07-Dec-2023 17:18:57.399 INFO [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+07-Dec-2023 17:18:59.814 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Dec-2023 17:19:05.595 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Dec-2023 17:19:06.333 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+07-Dec-2023 17:19:06.333 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+07-Dec-2023 17:19:06.336 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@45a07b97')

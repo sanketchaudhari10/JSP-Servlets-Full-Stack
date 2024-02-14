@@ -1,0 +1,75 @@
+07-Dec-2023 17:18:53.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+07-Dec-2023 17:18:53.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+07-Dec-2023 17:18:53.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+07-Dec-2023 17:18:53.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Dec-2023 17:18:53.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Dec-2023 17:18:53.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Dec-2023 17:18:53.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.1
+07-Dec-2023 17:18:53.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-LTS-39
+07-Dec-2023 17:18:53.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Dec-2023 17:18:53.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64
+07-Dec-2023 17:18:53.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64
+07-Dec-2023 17:18:53.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Dec-2023 17:18:53.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Dec-2023 17:18:53.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Dec-2023 17:18:53.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Dec-2023 17:18:53.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Dec-2023 17:18:53.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\conf\logging.properties
+07-Dec-2023 17:18:53.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Dec-2023 17:18:53.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Dec-2023 17:18:53.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Dec-2023 17:18:53.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Dec-2023 17:18:53.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64
+07-Dec-2023 17:18:53.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64
+07-Dec-2023 17:18:53.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\temp
+07-Dec-2023 17:18:53.877 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+07-Dec-2023 17:18:53.877 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Dec-2023 17:18:53.877 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Dec-2023 17:18:53.979 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+07-Dec-2023 17:18:54.297 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Dec-2023 17:18:54.316 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1332)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1345)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+07-Dec-2023 17:18:54.318 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [776] milliseconds
+07-Dec-2023 17:18:54.400 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Dec-2023 17:18:54.400 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+07-Dec-2023 17:18:54.425 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\webapps\sms.war]
+07-Dec-2023 17:18:57.188 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Dec-2023 17:19:05.745 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\webapps\sms.war] has finished in [11,320] ms
+07-Dec-2023 17:19:05.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\webapps\docs]
+07-Dec-2023 17:19:05.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\webapps\docs] has finished in [71] ms
+07-Dec-2023 17:19:05.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\webapps\examples]
+07-Dec-2023 17:19:06.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\webapps\examples] has finished in [528] ms
+07-Dec-2023 17:19:06.347 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\webapps\host-manager]
+07-Dec-2023 17:19:06.401 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\webapps\host-manager] has finished in [53] ms
+07-Dec-2023 17:19:06.401 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\webapps\manager]
+07-Dec-2023 17:19:06.433 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\webapps\manager] has finished in [32] ms
+07-Dec-2023 17:19:06.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\webapps\ROOT]
+07-Dec-2023 17:19:06.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\eclipse_workplace\apache-tomcat-9.0.83-windows-x64\webapps\ROOT] has finished in [33] ms
+07-Dec-2023 17:19:06.471 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [12152] milliseconds
